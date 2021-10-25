@@ -13,6 +13,13 @@
 		0EE17A252716D01000C4B2BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A232716D01000C4B2BE /* Main.storyboard */; };
 		0EE17A272716D01100C4B2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A262716D01100C4B2BE /* Assets.xcassets */; };
 		0EE17A2A2716D01100C4B2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A282716D01100C4B2BE /* LaunchScreen.storyboard */; };
+		0EE17A322716D6C800C4B2BE /* EnlargedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE17A312716D6C800C4B2BE /* EnlargedImageViewController.swift */; };
+		0EE17A392716DA6500C4B2BE /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A332716DA6500C4B2BE /* 2.jpeg */; };
+		0EE17A3A2716DA6500C4B2BE /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A342716DA6500C4B2BE /* 3.jpeg */; };
+		0EE17A3B2716DA6500C4B2BE /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A352716DA6500C4B2BE /* 5.jpeg */; };
+		0EE17A3C2716DA6500C4B2BE /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A362716DA6500C4B2BE /* 1.jpeg */; };
+		0EE17A3D2716DA6500C4B2BE /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A372716DA6500C4B2BE /* 4.jpeg */; };
+		0EE17A3E2716DA6500C4B2BE /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE17A382716DA6500C4B2BE /* 0.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		0EE17A262716D01100C4B2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EE17A292716D01100C4B2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EE17A2B2716D01100C4B2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE17A312716D6C800C4B2BE /* EnlargedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlargedImageViewController.swift; sourceTree = "<group>"; };
+		0EE17A332716DA6500C4B2BE /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		0EE17A342716DA6500C4B2BE /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		0EE17A352716DA6500C4B2BE /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		0EE17A362716DA6500C4B2BE /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		0EE17A372716DA6500C4B2BE /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		0EE17A382716DA6500C4B2BE /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +73,17 @@
 				0EE17A1D2716D01000C4B2BE /* AppDelegate.swift */,
 				0EE17A1F2716D01000C4B2BE /* SceneDelegate.swift */,
 				0EE17A212716D01000C4B2BE /* ViewController.swift */,
+				0EE17A312716D6C800C4B2BE /* EnlargedImageViewController.swift */,
 				0EE17A232716D01000C4B2BE /* Main.storyboard */,
 				0EE17A262716D01100C4B2BE /* Assets.xcassets */,
 				0EE17A282716D01100C4B2BE /* LaunchScreen.storyboard */,
 				0EE17A2B2716D01100C4B2BE /* Info.plist */,
+				0EE17A382716DA6500C4B2BE /* 0.jpeg */,
+				0EE17A362716DA6500C4B2BE /* 1.jpeg */,
+				0EE17A332716DA6500C4B2BE /* 2.jpeg */,
+				0EE17A342716DA6500C4B2BE /* 3.jpeg */,
+				0EE17A372716DA6500C4B2BE /* 4.jpeg */,
+				0EE17A352716DA6500C4B2BE /* 5.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -124,9 +145,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE17A3D2716DA6500C4B2BE /* 4.jpeg in Resources */,
+				0EE17A3A2716DA6500C4B2BE /* 3.jpeg in Resources */,
 				0EE17A2A2716D01100C4B2BE /* LaunchScreen.storyboard in Resources */,
+				0EE17A3B2716DA6500C4B2BE /* 5.jpeg in Resources */,
+				0EE17A3E2716DA6500C4B2BE /* 0.jpeg in Resources */,
 				0EE17A272716D01100C4B2BE /* Assets.xcassets in Resources */,
 				0EE17A252716D01000C4B2BE /* Main.storyboard in Resources */,
+				0EE17A3C2716DA6500C4B2BE /* 1.jpeg in Resources */,
+				0EE17A392716DA6500C4B2BE /* 2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE17A322716D6C800C4B2BE /* EnlargedImageViewController.swift in Sources */,
 				0EE17A222716D01000C4B2BE /* ViewController.swift in Sources */,
 				0EE17A1E2716D01000C4B2BE /* AppDelegate.swift in Sources */,
 				0EE17A202716D01000C4B2BE /* SceneDelegate.swift in Sources */,
