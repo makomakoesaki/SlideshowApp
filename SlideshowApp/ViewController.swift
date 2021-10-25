@@ -89,6 +89,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let EnlargedVC = segue.destination as! EnlargedImageViewController
         EnlargedVC.image = self.imageView.image!
+        timer.invalidate()
     }
     
     //戻るボタンがタップされると、スライドショー画面に戻り、同じ画像を表示してください
